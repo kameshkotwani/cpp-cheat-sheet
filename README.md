@@ -9,9 +9,9 @@
 
 # String Functions
 
-|Function | Operand | Output|
+|Function | Description | Output|
 |:----- | :------| :-----:|
-|`strcpy(s1,s2)`| copies string s2 into s1 |" " "World"|"World"|
+|`strcpy(s1,s2)`| copies string s2 into s1 |" " ,"World"|"World"|
 |`strcat(s1,s2)`|
 
 
