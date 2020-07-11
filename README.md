@@ -1,13 +1,16 @@
-# C++ Refrence Cheat-Sheet
+# C++ Reference Cheat-Sheet
 
-## Max Size of Data Types
+## Common Data Types
 
-|**data type**|**bits** | **max-value**|
-|:-------:|:--------:|:-------:|
-|`int`|32-bits|2,147,483,647| 
+|**data type**|**bits** |**Range**|
+|:-------:|:--------:|:--------:|
+|`int`|32-bits| -2,147,483,647 to 2,147,483,647|
 |`int_64`|64-bits|9,223,372,036,854,775,807|
+|`INT_MAX`|32-bits| 2,147,483,647 (*constant*)|
+|`char`|8-bits, 1-byte| -127 to 127|
 
 
+------------------------------
 
 ## String Functions
 
