@@ -1,4 +1,6 @@
-# Max Size of Data Types
+# C++ Refrence Cheat-Sheet
+
+## Max Size of Data Types
 
 |**data type**|**bits** | **max-value**|
 |:-------:|:--------:|:-------:|
@@ -7,7 +9,7 @@
 
 
 
-# String Functions
+## String Functions
 
 |Function | Description | Output|
 |:----- | :------| :-----:|
