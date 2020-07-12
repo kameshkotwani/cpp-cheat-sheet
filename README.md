@@ -13,7 +13,7 @@
 ------------------------------
 ## Useful Tips
 ### 1. To check for Integer overflow
-Steps:-
+#### Steps:-
 + we have to define `#define INT_MIN (-INT_MAX-1)` due to this [Stack-Overflow-Boolean-Issue.](https://stackoverflow.com/questions/14695118/2147483648-0-returns-true-in-c)
 + check if the result is getting overflow using this parameter `if(result>INT_MAX/10 || result<INT_MIN/10) return false` or `return 0`.
 
