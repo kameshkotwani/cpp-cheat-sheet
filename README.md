@@ -5,7 +5,6 @@
 |**data type**|**bits** |**Range**|
 |:-------:|:--------:|:--------:|
 |`int`|32-bits| -2,147,483,647 to 2,147,483,647|
-|`int_64`|64-bits|9,223,372,036,854,775,807|
 |`INT_MAX`|32-bits| 2,147,483,647 (*constant*)|
 |`INT_MIN`|32-bits| -2,147,483,647 (*constant*)|
 |`char`|8-bits, 1-byte| -127 to 127|
@@ -30,4 +29,5 @@
 |`strcat(s1,s2)`|
 
 
-# 
+--------------------------
+## STL Containers and Functions
