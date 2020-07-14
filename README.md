@@ -26,8 +26,22 @@
 |Function | Description |
 |:----- | :------|
 |`strcpy(s1,s2)`| copies string s2 into s1 |
-|`strcat(s1,s2)`|
+|`strcat(s1,s2)`| concatenates strings s1 and s2 into s1 |
 
+-----------------------------
+## Math Functions
+
+|Function | Description |
+|:----- | :------|
+|`double cos(double)`|Takes an angle (as a double) and returns the cosine.|
+|`double sin(double)`|Takes an angle (as a double) and returns the sine.|
+|`double tan(double)`|Takes an angle (as a double) and returns the tangent.|
+|`double log(double)`|Takes a number and returns the natural log (base-e) of that number.|
+|`double pow(double)`|The first is a number you wish to raise and the second is the power youwish to raise it to.|
+|`double sqrt(double)`|Returns square-root of the number.|
+|`int abs(int)`| Returns the absolute value. |
+|`double fabs(double)`| Returns the absolute value of any decimal number. (eg, 1,1.56,-3.99).|
+|`double floor(double)`|Returns the number less than or equal to the number passed.|
 
 --------------------------
 ## STL Containers and Functions
