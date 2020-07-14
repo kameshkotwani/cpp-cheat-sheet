@@ -24,9 +24,9 @@
 
 ## String Functions
 
-|Function | Description | Output|
-|:----- | :------| :-----:|
-|`strcpy(s1,s2)`| copies string s2 into s1 |" " ,"World"|"World"|
+|Function | Description |
+|:----- | :------|
+|`strcpy(s1,s2)`| copies string s2 into s1 |
 |`strcat(s1,s2)`|
 
 
