@@ -19,12 +19,12 @@
 + Add this code snippet at the end of `main` function: `cerr<<"time taken : "<<(float)clock()/CLOCKS_PER_SEC<<" secs"<<"\n";`
 
 ### To watch any variable while debugging
-+ #define watch(x) cout << (#x) << " is " << (x) << endl
++ `#define watch(x) cout << (#x) << " is " << (x) << "\n"`
 
 ### To calculate GCD use built-in function
 + `__gcd(x,y);` there are two underscores _ _ not one
 
-### make cin and cout faster
+### make `cin` and `cout` faster
 +  `ios::sync_with_stdio(false); you cannot use printf and scanf
 
 ### Incredible use of `auto`
