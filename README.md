@@ -12,23 +12,29 @@
 ------------------------------
 ## Useful Tips
 ### 1. To check for Integer overflow
-#### Steps:-
 + we have to define `#define INT_MIN (-INT_MAX-1)` due to this [Stack-Overflow-Boolean-Issue.](https://stackoverflow.com/questions/14695118/2147483648-0-returns-true-in-c)
 + check if the result is getting overflow using this parameter `if(result>INT_MAX/10 || result<INT_MIN/10) return false` or `return 0`.
 
-#### To check how much time the execution took place:
+### To check how much time the execution took place:
 + Add this code snippet at the end of `main` function: `cerr<<"time taken : "<<(float)clock()/CLOCKS_PER_SEC<<" secs"<<"\n";`
+
+### To watch any variable while debugging
++ #define watch(x) cout << (#x) << " is " << (x) << endl
+
+### To calculate GCD use built-in function
++ `__gcd(x,y);` there are two underscores _ _ not one
+
+### make cin and cout faster
++  `ios::sync_with_stdio(false); you cannot use printf and scanf
+
+### Incredible use of `auto`
++ `auto i=10;` will automatically assign int.
++ `auto k=`20LL;` will automatically assign long long
++ `auto z=1.0;` will automatically assign double
++ `auto s="somestring;"` will automatically assign string 
 
 ----------------------------
 
-## String Functions
-
-|Function | Description |
-|:----- | :------|
-|`strcpy(s1,s2)`| copies string s2 into s1 |
-|`strcat(s1,s2)`| concatenates strings s1 and s2 into s1 |
-
------------------------------
 ## Math Functions
 
 |Function | Description |
@@ -45,3 +51,5 @@
 
 --------------------------
 ## STL Containers and Functions
+
+Under Construction.
