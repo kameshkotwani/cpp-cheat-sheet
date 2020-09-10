@@ -29,7 +29,7 @@
 
 ### 6. Incredible use of `auto`
 + `auto i=10;` will automatically assign int.
-+ `auto k=`20LL;` will automatically assign long long
++ `auto k=20LL;` will automatically assign long long
 + `auto z=1.0;` will automatically assign double
 + `auto s="somestring;"` will automatically assign string 
 
